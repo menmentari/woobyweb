@@ -1,6 +1,6 @@
 body{
-    background:#f3f3f3;
-    color:#C1DBE8;
+    background:#C1DBE8;
+    color:#FFF;
     width:100%;
     font-family:sans-serif;
     margin:0 auto;
@@ -11,20 +11,11 @@ body{
     margin:auto;
     height:120px;
     line-height:120px;
-    background:#417aa8;
-    color:#64313E;
+    background:#64313E;
+    color:#FFF;
 }
 
 .jarak{
     padding:0 2pc;
 }
-
-.menu{ 
-    background-color:#417aa8;
-    height;50px;
-    line-height:50px;
-    position:relative;
-    width:90%;
-    margin:0 auto;
-    padding:0 auto;
 
