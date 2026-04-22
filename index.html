@@ -3,51 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wooby Pastry | Menu</title>
+    <title>Wooby Pastry - Freshly Baked</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="container">
-        <header>
-            <h1>Wooby<span>Pastry</span></h1>
-            <p>Freshly baked everyday.</p>
-        </header>
+    <header>
+        <nav>
+            <div class="logo">Wooby<span>Pastry</span></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <main>
-            <div class="item">
-                <div class="details">
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Kebahagiaan dalam Tiap Gigitan.</h1>
+            <p>Pastry artisan yang dibuat dengan bahan premium dan cinta, langsung dari oven kami ke meja Anda.</p>
+            <a href="#menu" class="btn">Lihat Menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Menu Andalan Kami</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=500')"></div>
+                <div class="product-info">
                     <h3>Classic Croissant</h3>
-                    <p>Mentega premium, renyah & gurih.</p>
+                    <p>Renyah di luar, lembut di dalam dengan rasa mentega premium.</p>
+                    <span class="price">Rp 25.000</span>
+                    <a href="https://wa.me/628123456789?text=Halo%20Wooby,%20saya%20ingin%20pesan%20Classic%20Croissant" class="buy-btn">Pesan via WA</a>
                 </div>
-                <span class="price">25k</span>
             </div>
 
-            <div class="item">
-                <div class="details">
-                    <h3>Chocolate Fudge</h3>
-                    <p>Cokelat pekat dan lembut.</p>
+            <div class="product-card">
+                <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&q=80&w=500')"></div>
+                <div class="product-info">
+                    <h3>Chocolate Fudge Cake</h3>
+                    <p>Kue cokelat pekat dengan lapisan ganache yang lumer di mulut.</p>
+                    <span class="price">Rp 35.000</span>
+                    <a href="https://wa.me/628123456789?text=Halo%20Wooby,%20saya%20ingin%20pesan%20Chocolate%20Fudge" class="buy-btn">Pesan via WA</a>
                 </div>
-                <span class="price">35k</span>
             </div>
 
-            <div class="item">
-                <div class="details">
+            <div class="product-card">
+                <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&q=80&w=500')"></div>
+                <div class="product-info">
                     <h3>Artisan Cookies</h3>
-                    <p>Soft cookies dengan sea salt.</p>
+                    <p>Kue kering dengan potongan cokelat besar dan taburan sea salt.</p>
+                    <span class="price">Rp 15.000</span>
+                    <a href="https://wa.me/628123456789?text=Halo%20Wooby,%20saya%20ingin%20pesan%20Artisan%20Cookies" class="buy-btn">Pesan via WA</a>
                 </div>
-                <span class="price">15k</span>
             </div>
+        </div>
+    </section>
 
-            <a href="https://wa.me/628123456789" class="cta-button">Pesan via WhatsApp</a>
-        </main>
-
-        <footer>
-            <p>📍 Jl. Kenangan No. 234 | @woobypastry</p>
-        </footer>
-    </div>
+    <footer>
+        <p>&copy; 2024 Wooby Pastry Shop. Follow us on Instagram @woobypastry</p>
+    </footer>
 
 </body>
 </html>
-
-
