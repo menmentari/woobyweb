@@ -2,13 +2,13 @@ body{
     background:#f3f3f3;
     color:#333;
     width:100%;
-    font-family:sans-serif;
+    font-family: sans-serif;
     margin:0 auto;
 }
 
 .header{
     width:90%;
-    margin:auto;
+    margin: auto;
     height:120px;
     line-height:120px;
     background:#417aa8;
@@ -51,7 +51,7 @@ body{
     width:90%;
     margin:auto;
     height:420px;
-    padding:0 1px;
+    padding:0.1px;
     background:#fff;
     color:#333;
 }
@@ -91,5 +91,5 @@ body{
     line-height:40px;
     background:#417aa8;
     color:#fff;
-    margin-bottom:1pc;
+    margin-bottom: 1pc;
 }
